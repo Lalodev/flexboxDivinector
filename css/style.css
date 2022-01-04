@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(3, 7, 26);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.container {
+    background-color: rgb(116, 132, 175);
+    padding: 20px;
+    /*flex*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container a {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+}
